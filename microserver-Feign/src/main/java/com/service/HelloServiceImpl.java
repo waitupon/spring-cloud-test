@@ -8,11 +8,11 @@ import org.springframework.web.client.RestTemplate;
  * Created by waitupon17 on 2017/8/25.
  */
 @Service
-public class HelloServiceImpl implements IHelloService{
-    @Autowired
-    RestTemplate restTemplate;
-
-    public String sayHi(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
-    }
+public class HelloServiceImpl{
+//    @Autowired
+//    RestTemplate restTemplate;
+//
+//    public String sayHi(String name) {
+//        return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
+//    }
 }
