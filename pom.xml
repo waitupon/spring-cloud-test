@@ -10,8 +10,7 @@
         <module>microserver-eureka-server</module>
         <module>microserver-eureka-client</module>
         <module>microserver-eureka-client-copy</module>
-        <module>microserver-Feign</module>
-        <module>microserver-fegin-test</module>
+        <module>microserver-fegin</module>
         <module>microserver-ribbon</module>
     </modules>
 
@@ -19,7 +18,6 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
         <version>Dalston.SR2</version>
-        <relativePath />
     </parent>
 
     <!-- 公共属性定义 -->

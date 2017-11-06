@@ -3,4 +3,4 @@ server:
   port: 8766
 spring:
   application:
-    name: service-feign-test
+    name: service-feign
