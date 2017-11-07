@@ -15,9 +15,9 @@ public class UserController {
     @Value("${server.port}")
     String port;
     @RequestMapping("/hi")
-    public String home(@RequestParam String name) {
+    public String home(@RequestParam(value="name",required = false) String name) {
         System.out.println("my port is " + port);
-        return "hi "+name+",i am from port:" +port;
+        return "hi "+name+".i am from port:" +port;
     }
 
 }

@@ -12,6 +12,7 @@
         <module>microserver-eureka-client-copy</module>
         <module>microserver-fegin</module>
         <module>microserver-ribbon</module>
+        <module>microserver-hystrix</module>
     </modules>
 
     <parent>
