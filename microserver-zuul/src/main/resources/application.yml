@@ -6,11 +6,19 @@ server:
   port: 8770
 spring:
   application:
-    name: service-ribbon
+    name: service-zuul
 
 
 zuul:
   routes:
-    service-hi:
-      path: /service-hi/*
-      url: http://localhost:8762/
+    hi-route:
+      path: /service-hi/**
+      service-id: service-hi
+
+ribbon:
+    eureka:
+      enabled: false
+
+service-hi:
+    ribbon:
+      listOfServers: localhost:8762
