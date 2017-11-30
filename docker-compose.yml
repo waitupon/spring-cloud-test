@@ -1,0 +1,13 @@
+microserver-eureka-server:
+   image: dwh/microserver-eureka-server:0.0.1-SNAPSHOT
+   hostname: microserver-eureka-server
+   ports:
+     - "8761:8761"
+
+microserver-eureka-client:
+   image:  dwh/microserver-eureka-client:0.0.1-SNAPSHOT
+   ports:
+     - "8762:8762"
+   links:
+     - "microserver-eureka-server"
+
