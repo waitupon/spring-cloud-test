@@ -7,11 +7,10 @@ cd $src_dir
 
 miro_start(){
 
-
 	for i in `find ${src_dir} -name "*SNAPSHOT.jar" | cut -d "/" -f 6`
 	do
 		 #nohup java -server -Xmx256m -Xms256m -Xmn128m -XX:PermSize=128m -Xss256k -jar `find ${src_dir}/$i/target -name "*-SNAPSHOT.jar"`  > "nohup_${i}.out" &
-		 nohup java -server -Xmx256m -Xms256m -Xmn128m -XX:PermSize=128m -Xss256k -jar `find ${src_dir}/$i/target -name "*-SNAPSHOT.jar"`&
+		 nohup java -server -Xmx256m -Xms256m -Xmn128m -XX:PermSize=128m -Xss256k -jar `find ${src_dir}/$i/target -name "*-SNAPSHOT.jar"` &
 	done
 }
 

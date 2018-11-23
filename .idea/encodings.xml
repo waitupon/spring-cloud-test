@@ -7,5 +7,7 @@
     <file url="file://$PROJECT_DIR$/microserver-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microserver-fegin-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microserver-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microserver-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microserver-zuul" charset="UTF-8" />
   </component>
 </project>

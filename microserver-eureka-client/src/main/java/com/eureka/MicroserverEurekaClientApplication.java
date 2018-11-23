@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableCircuitBreaker
+//@EnableCircuitBreaker
 @ComponentScan(basePackages={"com.controller"})
 public class MicroserverEurekaClientApplication {
 

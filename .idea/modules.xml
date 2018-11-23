@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/microserver-eureka-client-copy/hi-service-two.iml" filepath="$PROJECT_DIR$/microserver-eureka-client-copy/hi-service-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserver-fegin-test/microserver-fegin-test.iml" filepath="$PROJECT_DIR$/microserver-fegin-test/microserver-fegin-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserver-ribbon/microserver-ribbon.iml" filepath="$PROJECT_DIR$/microserver-ribbon/microserver-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microserver-zipkin/microserver-zipkin.iml" filepath="$PROJECT_DIR$/microserver-zipkin/microserver-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microserver-zuul/microserver-zuul.iml" filepath="$PROJECT_DIR$/microserver-zuul/microserver-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserver-eureka-server/server.iml" filepath="$PROJECT_DIR$/microserver-eureka-server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
     </modules>

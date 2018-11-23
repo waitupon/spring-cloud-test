@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.6.14:8761/eureka/
 server:
   port: 8770
 spring:
@@ -11,14 +11,14 @@ spring:
 
 zuul:
   routes:
-    hi-route:
+    servier-a:
       path: /service-hi/**
       service-id: service-hi
+#
+#ribbon:
+#    eureka:
+#      enabled: false
 
-ribbon:
-    eureka:
-      enabled: false
-
-service-hi:
-    ribbon:
-      listOfServers: localhost:8762
+#service-hi:
+#    ribbon:
+#      listOfServers: localhost:8762,localhost:8763
